@@ -91,7 +91,8 @@ git clone https://github.com/sh1ftx/YT-Summarizer.git
 cd YT-Summarizer
 # Permita execução e rode o script:
 chmod +x config.sh
-./config.sh ```
+./config.sh
+```
 
 > O script cria ambiente virtual, instala dependências e executa o projeto.
 
