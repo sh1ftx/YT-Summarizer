@@ -137,10 +137,8 @@ pip install --upgrade pip
 # -----------------------------
 # Instalar dependências do projeto
 # -----------------------------
-print_header "Instalando dependências..."
-
-print_step "Instalando yt_dlp, google-generativeai, python-dotenv..."
-pip install yt_dlp google-generativeai python-dotenv
+print_step "Instalando bibliotecas principais do projeto..."
+pip install yt_dlp google-generativeai python-dotenv langchain moviepy requests pytube transformers beautifulsoup4 tqdm rich flask pyaudio
 
 print_step "Instalando openai-whisper com fallback..."
 if ! pip install --prefer-binary openai-whisper; then
